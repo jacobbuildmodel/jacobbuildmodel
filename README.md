@@ -4,10 +4,10 @@ I'm an active investor who builds rules-based frameworks for equity selection an
 
 Two of those models are public here:
 
-### 📊 [Equity Evaluation Framework](https://github.com/jacobbuildmodel/equity-evaluation-framework)
+### 📊 [MERIDIAN — Equity Evaluation Framework](https://github.com/jacobbuildmodel/meridian)
 A fundamentals-first, two-axis (**quality × valuation**) model for equity selection. It classifies each company into one of four business archetypes, scores quality **multiplicatively** (one fatal flaw drives the score to zero), extracts the growth rate the current price is implying via a reverse-DCF, and reads the result off a Quality × Valuation grid. Price is never a signal in the score — a great business at an infeasible price is a *watch*, not a *buy*.
 
-### ⏱️ [Pre-Earnings Decision Engine](https://github.com/jacobbuildmodel/pre-earnings-decision-engine)
+### ⏱️ [CATALYST — Pre-Earnings Decision Engine](https://github.com/jacobbuildmodel/catalyst)
 A disciplined, anti-overfitting decision system for the days before an earnings release. A sealed directional-sign classifier plus a calculated-risk payoff layer, wrapped in hard gates, worst-case checks, and a governance model that decides what is even *allowed* to change. Built to answer **"no trade"** most of the time, and validated forward — never by tuning on past trades.
 
 ---
