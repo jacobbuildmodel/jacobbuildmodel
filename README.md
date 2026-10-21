@@ -1,12 +1,10 @@
-## Hi — I design quantitative investment models
+# Jacob Ong
 
-I'm an active investor who builds rules-based frameworks for equity selection and trade timing. I design the models end-to-end — the factors, the weighting and scoring logic, the valuation methods, and the decision rules — and I verify that the logic is sound. The Python implementations are done with AI assistance from my written specifications; my role on the code side is specification, review, and verification.
+I test arguments about Singapore's economic policy with public data. I lock in each prediction before I see the data, and publish every result, misses included. Every figure can be rebuilt from public data with the code in each analysis repository.
 
-One of those models is public here:
+- [jacobbuildmodel.github.io](https://jacobbuildmodel.github.io): the pieces and the public scorecard
+- [coe-analysis](https://github.com/jacobbuildmodel/coe-analysis): COE bidding results from January 2010 to August 2026, extended to October 2026 for my reply to LTA's 2026 consultation on COE categories ([lta-ab](https://github.com/jacobbuildmodel/coe-analysis/tree/main/lta-ab))
+- [hdb-affordability](https://github.com/jacobbuildmodel/hdb-affordability): HDB resale affordability
+- [gst-passthrough](https://github.com/jacobbuildmodel/gst-passthrough): whether GST increases reached consumer prices
 
-### 📊 [MERIDIAN — Equity Evaluation Framework](https://github.com/jacobbuildmodel/meridian)
-A fundamentals-first, two-axis (**quality × valuation**) model for equity selection. It classifies each company into one of four business archetypes, scores quality **multiplicatively** (one fatal flaw drives the score to zero), extracts the growth rate the current price is implying via a reverse-DCF, and reads the result off a Quality × Valuation grid. Price is never a signal in the score — a great business at an infeasible price is a *watch*, not a *buy*.
-
----
-
-*The project leads with the model design and reasoning; its README is honest about what has and hasn't been formally validated. Nothing in these repositories is financial advice.*
+I choose the questions and approve each prediction before the data is opened, and since 26 September 2026 I set a confidence on each one. AI (Anthropic's Claude) does the research, code and first drafts under my direction, and a separate Claude checker recomputes every scored number from a fresh copy with its own code.
